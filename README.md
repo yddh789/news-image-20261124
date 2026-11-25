@@ -8,6 +8,17 @@ One image summing up the world news of 24 November 2026, for make.fun's "Sum up 
 
 ![World news, 24 November 2026](world-news-24-nov-2026.webp)
 
+## Run it
+
+The image is drawn by `main.py` (Python 3, Pillow only). It renders the
+same 2×3 infographic — deep-blue header, one card per story — to
+`output/world-news-24-nov-2026.png`:
+
+```sh
+pip install pillow   # only if Pillow is not installed yet
+python3 main.py
+```
+
 ## The six stories
 
 1. **NVIDIA** — Jensen Huang is reinstated as CEO less than a week after stepping down, following reported intervention by President Trump; Nvidia shares jump about 30%.
